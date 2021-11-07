@@ -1,0 +1,33 @@
+@import "../node_modules/bootstrap/scss/bootstrap";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+
+$blue: hsl(207, 100%, 98%);
+$cyan: hsl(192, 100%, 9%);
+$pink: hsl(322, 100%, 66%);
+
+$colors: (
+  "blue":       $blue,
+  "indigo":     $indigo,
+  "purple":     $purple,
+  "pink":       $pink,
+  "red":        $red,
+  "orange":     $orange,
+  "yellow":     $yellow,
+  "green":      $green,
+  "teal":       $teal,
+  "cyan":       $cyan,
+  "white":      $white,
+  "gray":       $gray-600,
+  "gray-dark":  $gray-800
+);
+
+$info: $cyan;
+
+$font-family-base: 'Open Sans', sans-serif;
+
+$headings-font-family: 'Poppins', sans-serif;
+$headings-font-weight: 700;
+$headings-color: $cyan;
+
+@import 'bootstrap';
