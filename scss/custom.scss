@@ -6,6 +6,10 @@ $blue: hsl(207, 100%, 98%);
 $cyan: hsl(192, 100%, 9%);
 $pink: hsl(322, 100%, 66%);
 
+$info: $cyan;
+$secondary: $pink;
+$light: $blue;
+
 $colors: (
   "blue":       $blue,
   "indigo":     $indigo,
@@ -22,7 +26,32 @@ $colors: (
   "gray-dark":  $gray-800
 );
 
-$info: $cyan;
+$theme-colors: (
+  "primary":    $primary,
+  "secondary":  $secondary,
+  "success":    $success,
+  "info":       $info,
+  "warning":    $warning,
+  "danger":     $danger,
+  "light":      $light,
+  "dark":       $dark
+);
+
+$border-radius:               2.25rem;
+$border-radius-sm:            2.20rem;
+$border-radius-lg:            2.10rem;
+$border-radius-pill:          50rem;
+
+/* buttons */
+$input-btn-padding-x: 2.5rem;
+$input-btn-padding-y: 0.8rem;
+
+$btn-padding-x: $input-btn-padding-x;
+$btn-padding-y: $input-btn-padding-y;
+
+$btn-border-radius: $border-radius;
+$btn-border-radius-sm: $border-radius-sm;
+$btn-border-radius-lg: $border-radius-lg;
 
 $font-family-base: 'Open Sans', sans-serif;
 
