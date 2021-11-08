@@ -8,6 +8,7 @@ $pink: hsl(322, 100%, 66%);
 
 $info: $cyan;
 $secondary: $pink;
+$success: $pink;
 $light: $blue;
 
 $colors: (
@@ -37,14 +38,18 @@ $theme-colors: (
   "dark":       $dark
 );
 
-$border-radius:               2.25rem;
-$border-radius-sm:            2.20rem;
-$border-radius-lg:            2.10rem;
-$border-radius-pill:          50rem;
+$box-shadow:                  0 .5rem 1rem rgba($black, .15) !default;
+$box-shadow-sm:               0 .125rem .25rem rgba($black, .075) !default;
+$box-shadow-lg:               0 1rem 3rem rgba($black, .175) !default;
+$box-shadow-inset:            inset 0 1px 2px rgba($black, .075) !default;
 
-/* buttons */
-$input-btn-padding-x: 2.5rem;
-$input-btn-padding-y: 0.8rem;
+$input-border-radius: .5rem;
+$input-border-radius-sm: .5rem;
+$input-border-radius-lg: .5rem;
+
+$input-btn-padding-y: 1rem;
+$input-btn-padding-y-sm: 1rem;
+$input-btn-padding-y-lg: 1rem;
 
 $btn-padding-x: $input-btn-padding-x;
 $btn-padding-y: $input-btn-padding-y;

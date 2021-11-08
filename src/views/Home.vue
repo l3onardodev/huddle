@@ -1,36 +1,40 @@
 <template>
-  <div class="container-fluid p-0">
+  <div class="container-fluid">
     <section class="container-xl">
-      <div class="row py-3 align-items-center justify-content-between">
-        <div class="col-5">
+      <div class="row py-3 justify-content-between">
+        <div class="col-4 col-md-2 d-flex align-items-center">
           <img src="../assets/images/logo.svg" class="img-fluid" v-once>
         </div>
-        <div class="col-5">
+        <div class="col-4 col-md-2 d-flex justify-content-end">
           <b-button variant="outline-secondary">Try it free</b-button>
         </div>
       </div>
       <div class="row">
         <div class="col p-4">
-          <div class="row mt-5">
-            <h4 class="text-center w-100">Build the Community your fans Will Love</h4>
+          <div class="row mt-5 justify-content-center">
+            <h1 class="text-center">Build the Community your fans Will Love</h1>
           </div>
-          <div class="row">
-            <p class="text-center text-info my-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus magni labore a dolore ullam deserunt corporis, saepe cumque expedita officiis laudantium provident ea ad perspiciatis aliquid commodi. Sit, consequuntur optio.</p>
+          <div class="row justify-content-center">
+            <div class="col-12 col-md-6">
+              <p class="text-center text-info my-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus magni labore a dolore ullam deserunt corporis, saepe cumque expedita officiis laudantium provident ea ad perspiciatis aliquid commodi. Sit, consequuntur optio.</p>
+            </div>
           </div>
 
           <div class="row justify-content-center my-4">
             <b-button variant="secondary" class="font-weight-bold">Get Started For Free</b-button>
           </div>
 
-          <div class="row my-5">
-            <img src="../assets/images/screen-mockups.svg" class="img-fluid" v-once>
+          <div class="row my-5 justify-content-center">
+            <div class="col col-md-8">
+              <img src="../assets/images/screen-mockups.svg" class="img-fluid" v-once>
+            </div>
           </div>
         </div>
       </div>
       <div class="row">
         <div class="col justify-content-end">
-
           <div class="row justify-content-center mt-4">
+            
             <div class="row d-flex flex-column align-items-center">
               <div>
                 <img src="../assets/images/icon-communities.svg" class="w-25" v-once>
@@ -104,14 +108,16 @@
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 220" class="mt-5"><path fill="hsl(192, 100%, 9%)" fill-opacity="1" d="M0,64L40,90.7C80,117,160,171,240,176C320,181,400,139,480,101.3C560,64,640,32,720,16C800,0,880,0,960,10.7C1040,21,1120,43,1200,90.7C1280,139,1360,213,1400,250.7L1440,288L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"></path></svg>
     </section>
 
-    <section class="container-xl p-4 bg-info text-white">
-      <div class="col">
-        <div class="row">
+    <section class="container-xl py-4 bg-info text-white" style="border: 1px solid red">
+      <div class="col p-0">
+        <div class="row mx-2">
           <h4 class="text-white font-weight-light">NEWSLETTER</h4>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum voluptates repellat sint suscipit.</p>
+          <p class="my-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum voluptates repellat sint suscipit.</p>
 
-          <b-form-input class="rounded"></b-form-input>
-          <b-button variant="secondary" class="rounded align-self-end align-self-end">Subscribe</b-button>
+          <div class="row justify-content-end">
+            <b-form-input></b-form-input>
+            <b-button variant="success" class="rounded align-self-end align-self-end mt-4">Subscribe</b-button>
+          </div>
         </div>
       </div>
     </section>
