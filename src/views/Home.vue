@@ -1,5 +1,5 @@
 <template>
-  <div class="container-fluid">
+  <div class="container-fluid no-gutters p-0">
     <section class="container-xl">
       <div class="row py-3 justify-content-between">
         <div class="col-4 col-md-2 d-flex align-items-center">
@@ -9,7 +9,7 @@
           <b-button variant="outline-secondary">Try it free</b-button>
         </div>
       </div>
-      <div class="row">
+      <div class="row my-5">
         <div class="col p-4">
           <div class="row mt-5 justify-content-center">
             <h1 class="text-center">Build the Community your fans Will Love</h1>
@@ -32,51 +32,62 @@
         </div>
       </div>
       <div class="row">
-        <div class="col justify-content-end">
-          <div class="row justify-content-center mt-4">
-            
+          <div class="col-12 col-md-6 my-4">
             <div class="row d-flex flex-column align-items-center">
               <div>
-                <img src="../assets/images/icon-communities.svg" class="w-25" v-once>
+                <img src="../assets/images/icon-communities.svg" class="align-self-start" v-once>
                 <p class="display-4 text-info font-weight-bold">1.4k+</p>
               </div>
               <p class="mt-2">Communities Formed</p>
             </div>
           </div>
 
-          <div class="row justify-content-center my-5">
+          <div class="col-12 col-md-6 my-4">
             <div class="row d-flex flex-column align-items-center">
               <div>
-                <img src="../assets/images/icon-messages.svg" class="w-25" v-once>
+                <img src="../assets/images/icon-messages.svg" v-once>
                 <p class="display-4 text-info font-weight-bold">2.7m+</p>
               </div>
               <p class="mt-2">Messages Sent</p>
             </div>
           </div>
-        </div>
       </div>
     </section>
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="hsl(207, 100%, 98%)" fill-opacity="1" d="M0,64L48,101.3C96,139,192,213,288,245.3C384,277,480,267,576,245.3C672,224,768,192,864,170.7C960,149,1056,139,1152,133.3C1248,128,1344,128,1392,128L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
 
-    <section class="container-xl p-0 bg-light">
-      <div class="col">
-        <div class="row justify-content-center pt-5">
-          <img src="../assets/images/illustration-grow-together.svg" class="img-fluid w-75 mb-5" v-once>
-
-          <h4 class="text-info my-4">Grow together</h4>
-          <p class="text-center text-info px-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error neque commodi recusandae qui autem nesciunt tenetur labore</p>
+    <section class="container-fluid no-gutters p-0 bg-light">
+      <div class="container-xl p-0 pt-4">
+        <div class="row justify-content-center align-items-center">
+            <div class="col-10 col-md-5 justify-content-center order-md-2">
+              <div class="row justify-content-center">
+                <img src="../assets/images/illustration-grow-together.svg" class="img-fluid mb-5 px-4" v-once>
+              </div>
+            </div>
+            <div class="col-10 col-md-5 justify-content-center order-md-1">
+              <div class="row">
+                <h2 class="text-center text-md-left text-info my-4 w-100">Grow together</h2>
+                <p class="text-center text-md-left text-gray">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error neque commodi recusandae qui autem nesciunt tenetur labore</p>
+              </div>
+            </div>
         </div>
       </div>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 320"><path fill="#fff" fill-opacity="1" d="M0,128L48,154.7C96,181,192,235,288,224C384,213,480,139,576,106.7C672,75,768,85,864,74.7C960,64,1056,32,1152,58.7C1248,85,1344,171,1392,213.3L1440,256L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 100 600 220"><path fill="#fff" fill-opacity="1" d="M0,128L48,154.7C96,181,192,235,288,224C384,213,480,139,576,106.7C672,75,768,85,864,74.7C960,64,1056,32,1152,58.7C1248,85,1344,171,1392,213.3L1440,256L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
     </section>
 
-    <section class="container-xl p-0">
-      <div class="col">
-        <div class="row pt-5 justify-content-center">
-          <img src="../assets/images/illustration-flowing-conversation.svg" class="img-fluid w-75 mb-5">
-
-          <h5 class="text-info pt-5">Flowing Conversations</h5>
-          <p class="text-center text-info px-4 py-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum blanditiis optio molestiae totam, atque.</p>
+    <section class="container-fluid p-0">
+      <div class="container-xl p-0">
+        <div class="row align-items-center justify-content-center no-gutters">
+            <div class="col-10 col-md-6 pt-5 justify-content-center">
+              <div class="row justify-content-center">
+                <img src="../assets/images/illustration-flowing-conversation.svg" class="img-fluid mb-5 px-4">
+              </div>
+            </div>
+            <div class="col-10 col-md-6">
+              <div class="row px-4">
+                <h1 class="text-center text-md-left text-info pt-5 w-100">Flowing Conversations</h1>
+                <p class="text-center text-md-left text-info py-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum blanditiis optio molestiae totam, atque.</p>
+              </div>
+            </div>
         </div>
       </div>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="50 0 740 320">
@@ -84,10 +95,10 @@
       </svg>
     </section>
 
-    <section class="container-xl p-0 bg-light">
+    <section class="container-xl bg-light no-guetters">
       <div class="col">
         <div class="row justify-content-center">
-          <img src="../assets/images/illustration-your-users.svg" class="img-fluid w-75 my-4" v-once>
+          <img src="../assets/images/illustration-your-users.svg" class="img-fluid my-4" v-once>
 
           <h4 class="text-info mt-5">Your users</h4>
           <p class="text-center text-info px-4 py-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus sunt, ipsam maiores corporis laudantium explicabo, est fuga natus mollitia quas ducimus.</p>
@@ -98,7 +109,7 @@
       </svg>
     </section>
 
-    <section class="container-xl p-0">
+    <section class="container-xl">
       <div class="col my-5">
         <div class="row justify-content-center">
           <h3 class="text-center my-5">Ready To Build Your Community?</h3>
@@ -109,7 +120,7 @@
     </section>
 
     <section class="container-xl py-4 bg-info text-white" style="border: 1px solid red">
-      <div class="col p-0">
+      <div class="col">
         <div class="row mx-2">
           <h4 class="text-white font-weight-light">NEWSLETTER</h4>
           <p class="my-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum voluptates repellat sint suscipit.</p>
