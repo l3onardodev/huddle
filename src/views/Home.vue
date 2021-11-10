@@ -58,12 +58,12 @@
     <section class="container-fluid no-gutters p-0 bg-light">
       <div class="container-xl p-0 pt-4">
         <div class="row justify-content-center align-items-center">
-            <div class="col-10 col-md-5 justify-content-center order-md-2">
+            <div class="col-10 col-md-6 justify-content-center order-md-2">
               <div class="row justify-content-center">
-                <img src="../assets/images/illustration-grow-together.svg" class="img-fluid mb-5 px-4" v-once>
+                <img src="../assets/images/illustration-grow-together.svg" class="img-fluid px-4" v-once>
               </div>
             </div>
-            <div class="col-10 col-md-5 justify-content-center order-md-1">
+            <div class="col-10 col-md-6 justify-content-center order-md-1">
               <div class="row">
                 <h2 class="text-center text-md-left text-info my-4 w-100">Grow together</h2>
                 <p class="text-center text-md-left text-gray">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error neque commodi recusandae qui autem nesciunt tenetur labore</p>
@@ -84,7 +84,7 @@
             </div>
             <div class="col-10 col-md-6">
               <div class="row px-4">
-                <h1 class="text-center text-md-left text-info pt-5 w-100">Flowing Conversations</h1>
+                <h2 class="text-center text-md-left text-info pt-5 w-100">Flowing Conversations</h2>
                 <p class="text-center text-md-left text-info py-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum blanditiis optio molestiae totam, atque.</p>
               </div>
             </div>
@@ -95,39 +95,82 @@
       </svg>
     </section>
 
-    <section class="container-xl bg-light no-guetters">
-      <div class="col">
-        <div class="row justify-content-center">
-          <img src="../assets/images/illustration-your-users.svg" class="img-fluid my-4" v-once>
-
-          <h4 class="text-info mt-5">Your users</h4>
-          <p class="text-center text-info px-4 py-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus sunt, ipsam maiores corporis laudantium explicabo, est fuga natus mollitia quas ducimus.</p>
+    <section class="container-fluid bg-light no-guetters">
+      <div class="container-xl p-0">
+        <div class="row align-items-center justify-content-center">
+          <div class="col-10 col-md-6 order-md-2">
+            <div class="row justify-content-center">
+              <img src="../assets/images/illustration-your-users.svg" class="img-fluid my-4" v-once>
+            </div>
+          </div>
+          <div class="col-10 col-md-6 order-md-1">
+            <div class="row">
+              <h4 class="text-center text-md-left text-info mt-5 w-100">Your users</h4>
+              <p class="text-center text-md-left text-info py-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus sunt, ipsam maiores corporis laudantium explicabo, est fuga natus mollitia quas ducimus.</p>
+            </div>
+          </div>
         </div>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="100 0 740 320">
+          <path fill="#fff" fill-opacity="1" d="M0,256L48,213.3C96,171,192,85,288,96C384,107,480,213,576,250.7C672,288,768,256,864,229.3C960,203,1056,181,1152,192C1248,203,1344,245,1392,266.7L1440,288L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
+        </svg>
       </div>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="100 0 740 320">
-        <path fill="#fff" fill-opacity="1" d="M0,256L48,213.3C96,171,192,85,288,96C384,107,480,213,576,250.7C672,288,768,256,864,229.3C960,203,1056,181,1152,192C1248,203,1344,245,1392,266.7L1440,288L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
-      </svg>
     </section>
 
-    <section class="container-xl">
-      <div class="col my-5">
-        <div class="row justify-content-center">
-          <h3 class="text-center my-5">Ready To Build Your Community?</h3>
-          <b-button variant="secondary" class="font-weight-bold mb-5">Get Started For Free</b-button>
+    <section class="container-fluid bg-white p-0">
+      <div class="container-xl">
+        <div class="row">
+          <div class="col-12">
+            <div class="row justify-content-center">
+              <h2 class="text-center my-5">Ready To Build Your Community?</h2>
+            </div>
+          </div>
+          <div class="col-12">
+            <div class="row justify-content-center">
+              <b-button variant="secondary" class="font-weight-bold mb-5">Get Started For Free</b-button>
+            </div>
+          </div>
         </div>
       </div>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 220" class="mt-5"><path fill="hsl(192, 100%, 9%)" fill-opacity="1" d="M0,64L40,90.7C80,117,160,171,240,176C320,181,400,139,480,101.3C560,64,640,32,720,16C800,0,880,0,960,10.7C1040,21,1120,43,1200,90.7C1280,139,1360,213,1400,250.7L1440,288L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"></path></svg>
     </section>
 
-    <section class="container-xl py-4 bg-info text-white" style="border: 1px solid red">
-      <div class="col">
-        <div class="row mx-2">
-          <h4 class="text-white font-weight-light">NEWSLETTER</h4>
-          <p class="my-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum voluptates repellat sint suscipit.</p>
+    <section class="container-fluid py-4 bg-info text-white">
+      <div class="container-xl">
+        <div class="row justify-content-between my-5">
+          <div class="col-12 col-md-5">
+            <div class="row mx-2 mb-5">
+              <img src="../assets/images/logo.svg" class="img-fluid py-3" v-once>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem perferendis totam molestiae adipisci natus maxime ipsa distinctio </p>
 
-          <div class="row justify-content-end">
-            <b-form-input></b-form-input>
-            <b-button variant="success" class="rounded align-self-end align-self-end mt-4">Subscribe</b-button>
+              <div class="col">
+                <div class="row my-4 align-items-center">
+                  <img src="../assets/images/icon-phone.svg" v-once>
+                  <span class="mx-3">Phone: +2735276382</span>
+                </div>
+                <div class="row my-4 align-items-center">
+                  <img src="../assets/images/icon-email.svg" v-once>
+                  <span class="mx-3">example@huddle.com</span>
+                </div>
+                <div class="row">
+                  <font-awesome-icon :icon="['fab', 'facebook']" size="2x" class="mr-3"/>
+                  <font-awesome-icon :icon="['fab', 'instagram']" size="2x" class="mr-3"/>
+                  <font-awesome-icon :icon="['fab', 'twitter']" size="2x"/>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6">
+            <div class="row mx-2 mt-5">
+              <h4 class="text-white font-weight-light">NEWSLETTER</h4>
+              <p class="my-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum voluptates repellat sint suscipit.</p>
+
+              <div class="col">
+                <div class="row justify-content-end">
+                  <b-form-input></b-form-input>
+                  <b-button variant="success" class="rounded align-self-end align-self-end mt-4">Subscribe</b-button>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
