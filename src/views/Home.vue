@@ -1,13 +1,13 @@
 <template>
   <div class="container-fluid no-gutters p-0">
     <section class="container-xl">
-      <div class="row py-3 px-5 justify-content-between align-items-center">
+      <div class="row py-3 px-5 justify-content-between align-items-center" style="border: 1px solid red;">
         <div class="col-4 col-md-2">
           <div class="row justify-content-center">
             <img src="../assets/images/logo.svg" class="img-fluid" v-once>
           </div>
         </div>
-        <div class="col-4 col-md-3">
+        <div class="col-6 col-md-3">
           <div class="row justify-content-end">
             <b-button variant="outline-secondary px-4 shadow-sm">Try it free</b-button>
           </div>
