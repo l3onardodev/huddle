@@ -1,7 +1,7 @@
 <template>
   <div class="container-fluid no-gutters p-0">
     <section class="container-xl">
-      <div class="row py-3 px-5 justify-content-between align-items-center" style="border: 1px solid red;">
+      <div class="row py-3 px-3 px-md-5 justify-content-between align-items-center">
         <div class="col-4 col-md-2">
           <div class="row justify-content-center">
             <img src="../assets/images/logo.svg" class="img-fluid" v-once>
@@ -9,7 +9,7 @@
         </div>
         <div class="col-6 col-md-3">
           <div class="row justify-content-end">
-            <b-button variant="outline-secondary px-4 shadow-sm">Try it free</b-button>
+            <b-button variant="outline-secondary px-4 shadow-sm rounded-pill">Try it free</b-button>
           </div>
         </div>
       </div>
@@ -25,7 +25,7 @@
           </div>
 
           <div class="row justify-content-center my-4">
-            <b-button variant="secondary" class="font-weight-bold shadow px-5 py-3">Get Started For Free</b-button>
+            <b-button variant="secondary" class="font-weight-bold shadow px-5 py-3 rounded-pill">Get Started For Free</b-button>
           </div>
 
           <div class="row my-5 justify-content-center">
@@ -39,20 +39,20 @@
           <div class="col-12 col-md-6 my-4">
             <div class="row d-flex flex-column align-items-center">
               <div>
-                <img src="../assets/images/icon-communities.svg" class="align-self-start" v-once>
-                <p class="display-4 text-info font-weight-bold">1.4k+</p>
+                <img src="../assets/images/icon-communities.svg" class="align-self-start w-25" v-once>
+                <p class="display-1 text-info font-weight-bold">1.4k+</p>
               </div>
-              <p class="mt-2">Communities Formed</p>
+              <p class="mt-2 text-warning">Communities Formed</p>
             </div>
           </div>
 
           <div class="col-12 col-md-6 my-4">
             <div class="row d-flex flex-column align-items-center">
               <div>
-                <img src="../assets/images/icon-messages.svg" v-once>
-                <p class="display-4 text-info font-weight-bold">2.7m+</p>
+                <img src="../assets/images/icon-messages.svg" class="w-25" v-once>
+                <p class="display-1 text-info font-weight-bold">2.7m+</p>
               </div>
-              <p class="mt-2">Messages Sent</p>
+              <p class="mt-2 text-warning">Messages Sent</p>
             </div>
           </div>
       </div>
@@ -130,7 +130,7 @@
           </div>
           <div class="col-12">
             <div class="row justify-content-center">
-              <b-button variant="secondary" class="font-weight-bold mb-5 px-5 py-3 shadow">Get Started For Free</b-button>
+              <b-button variant="secondary" class="font-weight-bold mb-5 px-5 py-3 shadow rounded-pill">Get Started For Free</b-button>
             </div>
           </div>
         </div>
@@ -141,9 +141,9 @@
     <section class="container-fluid bg-info text-white">
       <div class="container-xl">
         <div class="row justify-content-between">
-          <div class="col-12 col-md-5">
+          <div class="col-12 col-md-5 order-1 order-md-0">
             <div class="row mx-2 mb-5">
-              <img src="../assets/images/logo.svg" class="img-fluid py-3" v-once>
+              <img src="../assets/images/logo-white.svg" class="img-fluid py-3" v-once>
               <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem perferendis totam molestiae adipisci natus maxime ipsa distinctio </p>
 
               <div class="col">
@@ -163,7 +163,7 @@
               </div>
             </div>
           </div>
-          <div class="col-12 col-md-6">
+          <div class="col-12 col-md-6 py-4 order-0 order-md-1">
             <div class="row mx-2 mt-2">
               <h4 class="text-white font-weight-light">NEWSLETTER</h4>
               <p class="my-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum voluptates repellat sint suscipit.</p>
@@ -171,7 +171,7 @@
               <div class="col">
                 <div class="row justify-content-end">
                   <b-form-input></b-form-input>
-                  <b-button variant="success" class="rounded align-self-end align-self-end mt-4">Subscribe</b-button>
+                  <b-button variant="success" class="mt-4 px-4 py-2 font-weight-bold rounded align-self-end align-self-end">Subscribe</b-button>
                 </div>
               </div>
             </div>
@@ -183,7 +183,6 @@
 </template>
 
 <script>
-// @ is an alias to /src
 
 export default {
   name: 'Home',
