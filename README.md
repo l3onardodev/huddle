@@ -16,7 +16,7 @@
 ## What I've learned from this project:
 <p>This project helped me to understand a lot more about Bootstrap in general, emphasizing, though, how the <em>Bootstrap Grid System</em> works.</p>
 
-<p>Beyong Bootstrap, with this project I had the chance to have more contact with SASS (technology that I am still learning), understanding how I can change bootstrap's variables values and adapt 'em to design I want to create.</p>
+<p>Beyong Bootstrap, with this project I had the chance to have more contact with SASS (technology that I am still learning), understanding how I can change bootstrap's variables values and adapt them to design I want to create.</p>
 
 
 ## Project setup
