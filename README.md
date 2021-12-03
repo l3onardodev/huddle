@@ -1,7 +1,7 @@
 # Huddle website.
 
 <p>This project was developed for CSS's Bootstrap framework learning purposes.</p>
-<p>The goal was to develop a landing page based on a public design published <a href="">here</a>.</p>
+<p>The goal was to develop a landing page based on a public design published <a href="https://www.frontendmentor.io/challenges/huddle-landing-page-with-curved-sections-5ca5ecd01e82137ec91a50f2">here</a>.</p>
 
 
 ## Technologies used:
